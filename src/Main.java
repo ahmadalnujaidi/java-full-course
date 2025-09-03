@@ -197,4 +197,62 @@ public class Main {
 //        System.out.printf("%4d\n", id4);
 //
 //    } // PRINTF
+
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//
+//        double principal;
+//        double rate;
+//        int timesCompounded;
+//        int years;
+//        double amount;
+//
+//        System.out.println("enter principal amt: ");
+//        principal = scanner.nextDouble();
+//
+//        System.out.print("enter interest rate%: ");
+//        rate = scanner.nextDouble() / 100;
+//
+//        System.out.println("enter times compounded per year: ");
+//        timesCompounded = scanner.nextInt();
+//
+//        System.out.println("enter # of years: ");
+//        years = scanner.nextInt();
+//
+//        amount = principal * Math.pow(1 + rate / timesCompounded, timesCompounded * years);
+//        System.out.printf("the amt after %d years is: $%.2f",years,amount);
+//
+//        scanner.close();
+//    } // COMPOUND INTEREST CALCULATOR
+
+//    public static void main(String[] args){
+//        boolean isStudent = true;
+//        boolean isSenior = true;
+//        if(isStudent){
+//            if(isSenior){
+//                System.out.printf("you are student and senior");
+//            } else {
+//                System.out.printf("only student not senior");
+//            }
+//        } else if (isSenior){
+//            System.out.printf("only senior not student");
+//        } else {
+//            System.out.printf("you are neither student nor senior");
+//        }
+//    } // NESTED IF STATEMENTS
+
+//    public static void main(String[] args){
+//
+//        String name = "ahmad";
+//        System.out.println(name.length());
+//        System.out.println(name.charAt(0));
+//        System.out.println(name.indexOf("m"));
+//        System.out.println(name.lastIndexOf("a"));
+//        System.out.println(name.toUpperCase());
+//        System.out.println(name.toLowerCase());
+//        System.out.println(name.replace("a","e"));
+//        System.out.println(name.isEmpty());
+//        System.out.println(name.contains("a"));
+//        System.out.println(name.equals("ahmed"));
+//    } STRING METHODS
 }
