@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 public class Main {
 //    public static void main(String[] args){
 //        System.out.println("Hello World");
@@ -63,4 +64,72 @@ public class Main {
 //
 //        scanner.close();
 //    } MADLIBS GAME (SCANNER PRACTICE)
+
+//    public static void main(String[] args){
+//        int x = 10;
+//        int y = 2;
+//        int z;
+////        z = x + y;
+////        z = x * y;
+//
+////        x *= y;
+////        System.out.println(x);
+////        System.out.println(z);
+//        x++;
+//        System.out.println(x);
+//
+//    } // ARITHMETIC
+
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        String item;
+//        double price;
+//        int qty;
+//        char currency = '$';
+//        double total;
+//
+//        System.out.print("what would you like to buy?: ");
+//        item = scanner.nextLine();
+//
+//        System.out.print("price?: ");
+//        price = scanner.nextDouble();
+//
+//        System.out.print("enter qty: ");
+//        qty = scanner.nextInt();
+//
+//        total = price * qty;
+//        System.out.println("you have bought "+qty+" "+item+" for a total of: "+currency+total);
+//
+//        scanner.close();
+//    } // SHOPPING CART PROGRAM
+
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        int age = scanner.nextInt();
+//
+//        if (age >= 18){
+//            System.out.println("you are old");
+//        } else {
+//            System.out.println("you are young");
+//        }
+//        scanner.close();
+//    } // IF STATEAMENTS
+//
+//
+//    public static void main(String[] args){
+//        Random random = new Random();
+//        int number;
+//        number = random.nextInt(1,6); // 1 inclusive, 6 exclusive
+//        System.out.println(number);
+//
+//        double dbl = random.nextDouble();
+//        System.out.println(dbl);
+//
+//        boolean isHeads = random.nextBoolean();
+//        if(isHeads){
+//            System.out.println("its heads");
+//        } else {
+//            System.out.println("its tails");
+//        }
+//    } // RANDOM NUMBERS
 }
