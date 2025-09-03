@@ -132,4 +132,32 @@ public class Main {
 //            System.out.println("its tails");
 //        }
 //    } // RANDOM NUMBERS
+
+//    public static void main(String[] args){
+//        System.out.println(Math.PI);
+//        System.out.println(Math.E);
+//
+//        double result;
+////        result = Math.pow(2,3);
+////        result = Math.abs(-5);
+//        result = Math.max(10, 7);
+//        // Math.round Math.sqrt, Math.ceil, Math.floor etc...
+//
+////        System.out.println(result);
+//
+//        Scanner scanner = new Scanner(System.in);
+//        // hypotenuse
+//        double a;
+//        double b;
+//        double c;
+//        System.out.print("enter side a: ");
+//        a = scanner.nextDouble();
+//
+//        System.out.print("enter side b: ");
+//        b = scanner.nextDouble();
+//
+//        c = Math.sqrt(Math.pow(a,2) + Math.pow(b, 2));
+//        System.out.print("hypotenuse: "+c);
+//        scanner.close();
+//    } MATH CLASS
 }
