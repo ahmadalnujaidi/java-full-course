@@ -273,9 +273,55 @@ public class Main {
 //
 //    } // TERNARY OPERATOR
 
-    public static void main(String[] args){
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("enter day: ");
+//        String day = scanner.nextLine();
+//
+//        switch(day){
+//            case "Sunday" -> System.out.println("its sun");
+//            case "Monday" -> System.out.println("its monday");
+//            case "Tuesday" -> System.out.println("its tues");
+//            case "Wednesday" -> System.out.println("its wed");
+//            case "Thursday" -> System.out.println("its thur");
+//            case "Friday", "Saturday" -> System.out.println("WEEKEND");
+//            default -> System.out.println(day + " is not a day");
+//        }
+//    } ENHANCED SWITCHES
 
+//    public static void main(String[] args){
+//        Scanner s = new Scanner(System.in);
+//        double n1;
+//        double n2;
+//        char op;
+//        double result = 0;
+//
+//        System.out.println("enter n1: ");
+//        n1 = s.nextDouble();
+//
+//
+//        System.out.println("enter n2: ");
+//        n2 = s.nextDouble();
+//
+//        System.out.println("enter op: ");
+//        op = s.next().charAt(0);
+//
+//        switch(op){
+//            case '+' -> result = n1 + n2;
+//            case '-' -> result = n1 - n2;
+//            case '/' -> {
+//                if (n2 == 0){
+//                    System.out.println("divide by 0!?");
+//                }
+//                else {
+//                    result = n1/n2;
+//                }
+//        }
+//            case '*' -> result = n1*n2;
+//            default -> System.out.println("wrong char");
+//
+//        }
+//        System.out.println(result);
+//    } // CALCULATOR PROGRAM
 
-
-    }
 }
