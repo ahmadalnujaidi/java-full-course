@@ -324,4 +324,31 @@ public class Main {
 //        System.out.println(result);
 //    } // CALCULATOR PROGRAM
 
+//    public static void main(String[] args){
+//        String name = "";
+//        Scanner scanner = new Scanner(System.in);
+//
+//        while(name.isEmpty() || name.length() < 3){
+//            System.out.println("enter name: ");
+//            name = scanner.nextLine();
+//        }
+//        System.out.printf("hi %s",name);
+//    } // WHILE LOOPS
+
+//    public static void main(String[] args){
+//        Random random = new Random();
+//        Scanner scanner = new Scanner(System.in);
+//        int input;
+//        int rndm = random.nextInt(0,11);
+//        System.out.println(rndm);
+//        do{
+//            System.out.println("enter a number 1-10: ");
+//            input = scanner.nextInt();
+//        } while (input > 10 || input < 1 || input!=rndm);
+//    } // NUMBER GUESSING GAME
+
+
+
 }
+
+
