@@ -255,4 +255,27 @@ public class Main {
 //        System.out.println(name.contains("a"));
 //        System.out.println(name.equals("ahmed"));
 //    } STRING METHODS
+
+//    public static void main(String[] args){
+//        String email = "ahmad.alnujaidi@email.com";
+////        System.out.print(email.substring(0,6));
+////        System.out.print(email.substring(6));
+//        System.out.println(email.substring(0, email.indexOf("@")));
+//
+//
+//
+//    } SUBSTRINGS
+
+//    public static void main(String[] args){
+//        int score = 70;
+//        String passOrFail = (score >= 60) ? "pass" : "fail";
+//        System.out.println(passOrFail);
+//
+//    } // TERNARY OPERATOR
+
+    public static void main(String[] args){
+
+
+
+    }
 }
