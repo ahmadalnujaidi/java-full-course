@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
+import java.util.Arrays;
 public class Main {
 //    public static void main(String[] args){
 //        System.out.println("Hello World");
@@ -347,7 +348,20 @@ public class Main {
 //        } while (input > 10 || input < 1 || input!=rndm);
 //    } // NUMBER GUESSING GAME
 
-
+//    public static void main(String[] args){
+//        String[] fruits = {"apple","banana","orange", "coconut"};
+//
+////        System.out.println(fruits[0]);
+////        int numOfF = fruits.length;
+////
+////        System.out.println(numOfF);
+//
+////        Arrays.sort(fruits);
+//        Arrays.fill(fruits, "pineapple");
+//        for (String fruit : fruits){
+//            System.out.println(fruit);
+//        }
+//    } ARRAYS
 
 }
 
