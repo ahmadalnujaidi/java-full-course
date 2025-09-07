@@ -1,14 +1,13 @@
 public class Car {
-    String make = "Kia";
-    String model = "k5";
-    int year = 2021;
-    double price = 100000.99;
-    boolean isRunning = false;
+    String model;
+    String color;
 
-    void start(){
-        System.out.println("you started engine");
+    Car(String model, String color){
+        this.model = model;
+        this.color = color;
     }
-    void stop(){
-        System.out.println("stopped engine");
+
+    void drive(){
+        System.out.println("driving "+this.model);
     }
 }

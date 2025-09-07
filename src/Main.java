@@ -368,6 +368,34 @@ public class Main {
 //        ahmads.start();
 //    } OOP
 
+//    public static void main(String[] args){
+//        Student s1 = new Student("ahmad", 22, 3.25, true);
+//        Student s2 = new Student("majid", 18, 4, true);
+//
+//        System.out.println(s1.name);
+//        System.out.println(s2.name);
+//
+//        s2.study();
+//    } CONSTRUCTORS
+
+//    public static void main(String[] args){
+//        User u1 = new User("spongebob");
+//    } OVERLOADED CONSTRUCTORS
+
+//     public static void main(String[] args){
+//         Car c1 = new Car("ford", "red");
+//         Car c2 = new Car("bug", "blue");
+//
+////         Car[] cars = new Car[2];
+//         Car[] cars = {c1,c2};
+//
+////         for(int i = 0; i < cars.length; i++){
+////             cars[i].drive();
+////         }
+//         for(Car car: cars){
+//            car.drive();
+//         }
+//     } ARRAY OF OBJECTS
 }
 
 
