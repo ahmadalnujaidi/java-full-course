@@ -396,6 +396,11 @@ public class Main {
 //            car.drive();
 //         }
 //     } ARRAY OF OBJECTS
+
+    public static void main(String[] args){
+        Circle circle = new Circle(2);
+        circle.display();
+    } // ABSTRACT
 }
 
 
