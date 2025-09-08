@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.Random;
-import java.util.Arrays;
+import java.util.*;
+
 public class Main {
 //    public static void main(String[] args){
 //        System.out.println("Hello World");
@@ -402,9 +400,27 @@ public class Main {
 //        Circle circle = new Circle(2);
 //        circle.display();
 //    } // ABSTRACT
+//    public static void main(String[] args){
+//        ArrayList<Integer> list = new ArrayList<>();
+//    } // ARRAY LIST
+
     public static void main(String[] args){
-        ArrayList<Integer> list = new ArrayList<>();
-    } // ARRAY LIST
+        HashMap<String, Double> map = new HashMap<>();
+
+        map.put("apple", 0.50);
+        map.put("orange", 0.20);
+        map.put("banana", 0.70);
+
+//        System.out.println(map);
+        System.out.println(map.get("apple"));
+        System.out.println(map.containsKey("orange"));
+        System.out.println(map.containsValue(.70));
+        System.out.println(map.size());
+
+        for(String key : map.keySet()){
+            System.out.println(key+ " " + map.get(key));
+        }
+    }
 }
 
 
