@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
 import java.util.Arrays;
@@ -397,10 +398,13 @@ public class Main {
 //         }
 //     } ARRAY OF OBJECTS
 
+//    public static void main(String[] args){
+//        Circle circle = new Circle(2);
+//        circle.display();
+//    } // ABSTRACT
     public static void main(String[] args){
-        Circle circle = new Circle(2);
-        circle.display();
-    } // ABSTRACT
+        ArrayList<Integer> list = new ArrayList<>();
+    } // ARRAY LIST
 }
 
 
