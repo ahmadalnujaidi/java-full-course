@@ -404,23 +404,38 @@ public class Main {
 //        ArrayList<Integer> list = new ArrayList<>();
 //    } // ARRAY LIST
 
-    public static void main(String[] args){
-        HashMap<String, Double> map = new HashMap<>();
+//    public static void main(String[] args){
+//        HashMap<String, Double> map = new HashMap<>();
+//
+//        map.put("apple", 0.50);
+//        map.put("orange", 0.20);
+//        map.put("banana", 0.70);
+//
+////        System.out.println(map);
+//        System.out.println(map.get("apple"));
+//        System.out.println(map.containsKey("orange"));
+//        System.out.println(map.containsValue(.70));
+//        System.out.println(map.size());
+//
+//        for(String key : map.keySet()){
+//            System.out.println(key+ " " + map.get(key));
+//        }
+//    } HASHMAP
 
-        map.put("apple", 0.50);
-        map.put("orange", 0.20);
-        map.put("banana", 0.70);
+    // DATA STRUCTURES AND ALGORITHMS
 
-//        System.out.println(map);
-        System.out.println(map.get("apple"));
-        System.out.println(map.containsKey("orange"));
-        System.out.println(map.containsValue(.70));
-        System.out.println(map.size());
+//    public static void main(String[] args){
+//        Stack<String> stack = new Stack<>();
+//        System.out.println(stack.empty());
+//        stack.push("minecraft");
+//        stack.push("doom");
+//        stack.push("valo");
+//        String poppedgame =stack.pop();
+//        System.out.println(stack);
+//        System.out.println(poppedgame);
+//        System.out.println(stack.peek());
+//    } // STACKS
 
-        for(String key : map.keySet()){
-            System.out.println(key+ " " + map.get(key));
-        }
-    }
 }
 
 
