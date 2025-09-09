@@ -436,6 +436,65 @@ public class Main {
 //        System.out.println(stack.peek());
 //    } // STACKS
 
+//    public static void main(String[] args){
+//        Queue<String> queue = new LinkedList<>();
+//
+//        queue.offer("karen");
+//        queue.offer("steve");
+//        queue.offer("hareld");
+////        System.out.println(queue);
+//        System.out.println(queue.peek());
+//        queue.poll();
+//        System.out.println(queue);
+//        System.out.println(queue.isEmpty());
+//        System.out.println(queue.size());
+//        System.out.println(queue.contains("karen"));
+//
+//
+//    } // QUEUES
+//    public static void main(String[] args){
+//        Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
+//
+//        queue.offer(3.0);
+//        queue.offer(2.0);
+//        queue.offer(4.0);
+//        queue.offer(2.5);
+//        while(!queue.isEmpty()){
+//            System.out.println(queue.poll());
+//        }
+//    } // PRIORITY QUEUES
+
+//    public static void main(String[] args){
+//        LinkedList<String> linkedList = new LinkedList<>();
+////        linkedList.push("A");
+////        linkedList.push("B");
+////        linkedList.push("C");
+////        linkedList.push("D");
+////        linkedList.pop();
+////
+//        linkedList.offer("A");
+//        linkedList.offer("B");
+//        linkedList.offer("C");
+//        linkedList.offer("D");
+////        linkedList.poll();
+//
+//        linkedList.add(2, "B+");
+//        linkedList.remove("B");
+//        System.out.println(linkedList);
+//
+//    } // LINKED LIST
+
+//    public static void main(String[] args){
+//        // static array - fixed capacity
+//        Integer[] list = new Integer[5];
+//
+//        // dynamic array
+//        ArrayList<Integer> list2 = new ArrayList<>();
+//
+//
+//    } DYNAMIC ARRAYS
+
+
 }
 
 
