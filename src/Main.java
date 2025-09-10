@@ -493,8 +493,29 @@ public class Main {
 //
 //
 //    } DYNAMIC ARRAYS
-
-
+//
+//    public static void main(String[] args){
+//        Integer[] array = {1,7,3,2,9,8,5,4};
+//        for(int i : array){
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+//        bubbleSort(array);
+//        for(int i : array){
+//            System.out.print(i + " ");
+//        }
+//    }
+//    static void bubbleSort(Integer[] array){
+//        for(int i = 0; i < array.length; i++){
+//            for(int j = 0; j < array.length - 1; j++){
+//                if (array[j] > array[j+1]){
+//                    int temp = array[j];
+//                    array[j] = array[j+1];
+//                    array[j+1] = temp;
+//                }
+//            }
+//        }
+//    } BUBBLE SORT
 }
 
 
