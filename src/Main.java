@@ -564,6 +564,33 @@ public class Main {
 //            array[j + 1] = temp;
 //        }
 //  }
+
+//    public static void main(String[] args){
+////        walk(5);
+////        recWalk(100);
+//        int res = factorial(7);
+//        System.out.println(res);
+//    }
+//    public static void walk(int steps){
+//        for(int i = 0; i < steps; i++){
+//            System.out.println("you take a step");
+//        }
+//    }
+//    public static void recWalk(int steps){
+//        // base case
+//        if(steps < 1){
+//            return;
+//        }
+//        System.out.println("you took a step!");
+//        recWalk(steps - 1);
+//    }
+//    public static int factorial(int x){
+//        // base case
+//        if(x <= 1){
+//            return 1;
+//        }
+//        return x * factorial(x - 1);
+//    } // RECURSION
 }
 
 
