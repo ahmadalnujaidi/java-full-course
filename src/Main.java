@@ -694,6 +694,21 @@ public class Main {
 //
 //        return i;
 //    } // QUICK SORT
+
+//    public static void main(String[] args){
+//        Hashtable<String, String> table = new Hashtable<>(10);
+//        table.put("100", "spongebob");
+//        table.put("123", "patrick");
+//        table.put("321", "sandy");
+//        table.put("555", "squidward");
+//        table.put("777", "gary");
+//
+//        for(String key: table.keySet()){
+//            System.out.println(key.hashCode() % 10 +"\t"+key + ": "+table.get(key));
+//        }
+////        table.remove(777);
+//        System.out.println(table.get("100"));
+//    } // HASH TABLE
 }
 
 
